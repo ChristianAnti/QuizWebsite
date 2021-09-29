@@ -1,10 +1,66 @@
-body{
-    background:white;
+header{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
     padding: 5px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section{
+.container{
+    background:white;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    width: 750px;
+    max-width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.button{
+    border: 2px solid green;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.button:hover {
+    border-color: red;
+}
+
+.next-button{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.start-button{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 10px;
 }

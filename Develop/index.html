@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
 
 </head>
+<header>Cool quiz about coding 😊</header>
 <body>
+    <p id="timer" class="timer">Time left:0 </p>
     <!-- javascript should have at least 3-5 containers -->
     <!-- code below is just an example and can be removed/modified -->
-    <h1>Cool quiz about coding 😊</h1>
-    <section> 
-        <button id="start-button" class="startbutton button">Start</button>
-        
+    <div class="container"> 
+        <button id="start-button" class="start-button button">Start</button>
+
         <button id="next-button" class="next-button button">Next</button>
 
-        <h1 id="question">Question here</h1>
+        <div id="question">Question here</div>
+        
+        <div id="answer-buttons" class="answer-buttons">
+            <button class="button">Answer A</button>
+            <button class="button">Answer B</button>
+            <button class="button">Answer C</button>
+            <button class="button">Answer D</button>
+        </div>
 
-        <ol id="answer">
-            <li>Answer here 1</li>
-            <li>Answer here 2</li>
-            <li>Answer here 3</li>
-            <li>Answer here 4</li>
-        </ol>
-        <div id="High Scores">High Scores</div>
-    </section>
+    </div>
+    <footer id="High Scores">High Scores</footer>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
