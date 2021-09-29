@@ -8,6 +8,11 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 let shuffledQuestions, currentQuestionIndex
 
 var timerP = document.querySelector("#timer")
+var timerInterval = null;
+var secondsLeft = 0;
+
+var score = 0;
+
 
 console.log("I'm connected WOW");
 
@@ -29,8 +34,6 @@ function startGame(){
     currentQuestionIndex = 0
     setNextQuestion()
 }
-
-
 
 function setNextQuestion(){
     resetState()
